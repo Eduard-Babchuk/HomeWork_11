@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, yellow, orange);
+}
+
+.panel {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    background-size: cover;
+}
